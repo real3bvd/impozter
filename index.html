@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description"
+        content="لعبة الجاسوس - لعبة كلمات جماعية ممتعة | Impoztor Word Game - Fun party word game">
+    <meta name="theme-color" content="#1a1a2e">
+    <title>لعبة الجاسوس | Impoztor Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Poppins:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css?v=4">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="game-header">
+        <h1 class="game-title">IMPOZTOR</h1>
+        <div class="header-controls">
+            <button id="sound-toggle" class="icon-btn" aria-label="Toggle sound">
+                <span class="icon-sound-on">♪</span>
+                <span class="icon-sound-off">×</span>
+            </button>
+            <button id="lang-toggle" class="lang-btn">
+                <span class="lang-ar">EN</span>
+                <span class="lang-en">ع</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="game-container">
+
+        <!-- Setup Screen -->
+        <section id="setup-screen" class="screen active">
+            <div class="setup-card glass-card">
+                <h2 data-i18n="setupTitle">إعداد اللعبة</h2>
+
+                <div class="form-group">
+                    <label for="player-count" data-i18n="playerCount">عدد اللاعبين</label>
+                    <div class="number-input-wrapper">
+                        <button class="number-btn minus" data-target="player-count">−</button>
+                        <input type="number" id="player-count" min="3" max="15" value="4" readonly>
+                        <button class="number-btn plus" data-target="player-count">+</button>
+                    </div>
+                </div>
+
+                <div class="form-group" id="player-names-group">
+                    <label data-i18n="playerNames">أسماء اللاعبين</label>
+                    <div id="player-names-container" class="player-names-list">
+                        <!-- Dynamic player name inputs -->
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="category-select" data-i18n="category">اختر الفئة</label>
+                    <select id="category-select" class="select-input">
+                        <!-- Categories loaded from JSON -->
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="impostor-count" data-i18n="impostorCount">عدد الجواسيس</label>
+                    <div class="number-input-wrapper">
+                        <button class="number-btn minus" data-target="impostor-count">−</button>
+                        <input type="number" id="impostor-count" min="1" max="3" value="1" readonly>
+                        <button class="number-btn plus" data-target="impostor-count">+</button>
+                    </div>
+                </div>
+
+                <div class="form-group checkbox-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="shuffle-order">
+                        <span class="checkmark"></span>
+                        <span data-i18n="shuffleOrder">خلط ترتيب اللاعبين</span>
+                    </label>
+                </div>
+
+                <button id="start-game-btn" class="btn btn-primary btn-large" data-i18n="startGame">
+                    ابدأ اللعبة
+                </button>
+            </div>
+        </section>
+
+        <!-- Reveal Phase -->
+        <section id="reveal-screen" class="screen">
+            <div class="reveal-container">
+                <!-- Pass Device Card -->
+                <div id="pass-card" class="reveal-card glass-card">
+                    <div class="pass-content">
+                        <div class="pass-icon">[>>]</div>
+                        <h2 data-i18n="passTo">مرر الجهاز إلى</h2>
+                        <p class="player-name-display" id="current-player-name"></p>
+                        <button id="ready-btn" class="btn btn-secondary btn-large" data-i18n="imReady">
+                            أنا جاهز
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Role Card (Flippable) -->
+                <div id="role-card-container" class="card-flip-container hidden">
+                    <div class="card-flip" id="role-card">
+                        <div class="card-front">
+                            <div class="card-content">
+                                <p class="instruction" data-i18n="revealInstruction">اسحب أو اضغط للكشف</p>
+                                <div class="swipe-indicator">
+                                    <span class="swipe-arrow">[ TAP ]</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="card-content">
+                                <div id="role-icon" class="role-icon"></div>
+                                <h2 id="role-text" class="role-text"></h2>
+                                <p id="word-display" class="word-display"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Next Player Button -->
+                <button id="next-player-btn" class="btn btn-primary btn-large hidden" data-i18n="nextPlayer">
+                    اللاعب التالي
+                </button>
+
+                <!-- Progress Indicator -->
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <div id="progress-fill" class="progress-fill"></div>
+                    </div>
+                    <p class="progress-text"><span id="current-index">1</span> / <span id="total-players">4</span></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Discussion Phase -->
+        <section id="discussion-screen" class="screen">
+            <div class="discussion-card glass-card">
+                <h2 data-i18n="discussionTime">وقت المناقشة</h2>
+                <div class="timer-display">
+                    <span id="timer-minutes">03</span>:<span id="timer-seconds">00</span>
+                </div>
+                <div class="timer-controls">
+                    <button id="timer-decrease" class="timer-btn">−30s</button>
+                    <button id="timer-toggle" class="btn btn-secondary" data-i18n="pause">إيقاف</button>
+                    <button id="timer-increase" class="timer-btn">+30s</button>
+                </div>
+                <button id="skip-discussion-btn" class="btn btn-primary btn-large" data-i18n="startVoting">
+                    بدء التصويت
+                </button>
+            </div>
+        </section>
+
+        <!-- Voting Phase -->
+        <section id="voting-screen" class="screen">
+            <div class="voting-card glass-card">
+                <h2 data-i18n="votingTitle">التصويت</h2>
+                <p class="voting-instruction" data-i18n="votingInstruction">من تعتقد أنه الجاسوس؟</p>
+                <div id="voting-options" class="voting-options">
+                    <!-- Vote buttons generated dynamically -->
+                </div>
+                <div id="vote-progress" class="vote-progress">
+                    <span data-i18n="votesCount">الأصوات:</span> <span id="votes-cast">0</span> / <span
+                        id="votes-total">4</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Results Screen -->
+        <section id="results-screen" class="screen">
+            <div class="results-card glass-card">
+                <h2 data-i18n="resultsTitle">النتائج</h2>
+
+                <div class="results-section">
+                    <h3 data-i18n="theWord">الكلمة كانت</h3>
+                    <p id="result-word" class="result-word"></p>
+                </div>
+
+                <div class="results-section">
+                    <h3 data-i18n="theImpostors">الجواسيس</h3>
+                    <div id="impostors-list" class="impostors-list">
+                        <!-- Impostor names -->
+                    </div>
+                </div>
+
+                <div class="results-section">
+                    <h3 data-i18n="votingResults">نتائج التصويت</h3>
+                    <div id="voting-results" class="voting-results">
+                        <!-- Vote results -->
+                    </div>
+                </div>
+
+                <div class="results-actions">
+                    <button id="play-again-btn" class="btn btn-primary btn-large" data-i18n="playAgain">
+                        العب مرة أخرى
+                    </button>
+                    <button id="new-game-btn" class="btn btn-secondary btn-large" data-i18n="newGame">
+                        لعبة جديدة
+                    </button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Scripts -->
+    <script src="js/i18n.js?v=5"></script>
+    <script src="js/animations.js?v=5"></script>
+    <script src="js/app.js?v=5"></script>
+</body>
+
+</html>

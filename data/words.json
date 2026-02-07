@@ -1,0 +1,168 @@
+{
+    "categories": [
+        {
+            "id": "animals",
+            "name": {
+                "ar": "الحيوانات",
+                "en": "Animals"
+            },
+            "words": [
+                {
+                    "ar": "أسد",
+                    "en": "Lion"
+                },
+                {
+                    "ar": "فيل",
+                    "en": "Elephant"
+                },
+                {
+                    "ar": "زرافة",
+                    "en": "Giraffe"
+                },
+                {
+                    "ar": "قرد",
+                    "en": "Monkey"
+                },
+                {
+                    "ar": "دب",
+                    "en": "Bear"
+                },
+                {
+                    "ar": "نمر",
+                    "en": "Tiger"
+                },
+                {
+                    "ar": "ثعلب",
+                    "en": "Fox"
+                },
+                {
+                    "ar": "أرنب",
+                    "en": "Rabbit"
+                }
+            ]
+        },
+        {
+            "id": "food",
+            "name": {
+                "ar": "الطعام",
+                "en": "Food"
+            },
+            "words": [
+                {
+                    "ar": "بيتزا",
+                    "en": "Pizza"
+                },
+                {
+                    "ar": "برجر",
+                    "en": "Burger"
+                },
+                {
+                    "ar": "سوشي",
+                    "en": "Sushi"
+                },
+                {
+                    "ar": "باستا",
+                    "en": "Pasta"
+                },
+                {
+                    "ar": "شاورما",
+                    "en": "Shawarma"
+                },
+                {
+                    "ar": "فلافل",
+                    "en": "Falafel"
+                },
+                {
+                    "ar": "كباب",
+                    "en": "Kebab"
+                },
+                {
+                    "ar": "تاكو",
+                    "en": "Taco"
+                }
+            ]
+        },
+        {
+            "id": "places",
+            "name": {
+                "ar": "الأماكن",
+                "en": "Places"
+            },
+            "words": [
+                {
+                    "ar": "مطار",
+                    "en": "Airport"
+                },
+                {
+                    "ar": "مستشفى",
+                    "en": "Hospital"
+                },
+                {
+                    "ar": "مدرسة",
+                    "en": "School"
+                },
+                {
+                    "ar": "سينما",
+                    "en": "Cinema"
+                },
+                {
+                    "ar": "مطعم",
+                    "en": "Restaurant"
+                },
+                {
+                    "ar": "شاطئ",
+                    "en": "Beach"
+                },
+                {
+                    "ar": "جبل",
+                    "en": "Mountain"
+                },
+                {
+                    "ar": "متحف",
+                    "en": "Museum"
+                }
+            ]
+        },
+        {
+            "id": "jobs",
+            "name": {
+                "ar": "المهن",
+                "en": "Jobs"
+            },
+            "words": [
+                {
+                    "ar": "طبيب",
+                    "en": "Doctor"
+                },
+                {
+                    "ar": "مهندس",
+                    "en": "Engineer"
+                },
+                {
+                    "ar": "معلم",
+                    "en": "Teacher"
+                },
+                {
+                    "ar": "طباخ",
+                    "en": "Chef"
+                },
+                {
+                    "ar": "شرطي",
+                    "en": "Police Officer"
+                },
+                {
+                    "ar": "رائد فضاء",
+                    "en": "Astronaut"
+                },
+                {
+                    "ar": "طيار",
+                    "en": "Pilot"
+                },
+                {
+                    "ar": "صحفي",
+                    "en": "Journalist"
+                }
+            ]
+        }
+    ]
+}
