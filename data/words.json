@@ -163,6 +163,1204 @@
                     "en": "Journalist"
                 }
             ]
+        },
+        {
+            "id": "anime",
+            "name": {
+                "ar": "أنمي",
+                "en": "Anime"
+            },
+            "words": [
+                {
+                    "ar": "ناروتو",
+                    "en": "Naruto"
+                },
+                {
+                    "ar": "ون بيس",
+                    "en": "One Piece"
+                },
+                {
+                    "ar": "هجوم العمالقة",
+                    "en": "Attack on Titan"
+                },
+                {
+                    "ar": "دراغون بول",
+                    "en": "Dragon Ball"
+                },
+                {
+                    "ar": "دراغون بول سوبر",
+                    "en": "Dragon Ball Super"
+                },
+                {
+                    "ar": "ديمون سلاير",
+                    "en": "Demon Slayer"
+                },
+                {
+                    "ar": "ديث نوت",
+                    "en": "Death Note"
+                },
+                {
+                    "ar": "جوجوتسو كايسن",
+                    "en": "Jujutsu Kaisen"
+                },
+                {
+                    "ar": "بليتش",
+                    "en": "Bleach"
+                },
+                {
+                    "ar": "هنتر × هنتر",
+                    "en": "Hunter x Hunter"
+                },
+                {
+                    "ar": "طوكيو غول",
+                    "en": "Tokyo Ghoul"
+                },
+                {
+                    "ar": "ماي هيرو أكاديميا",
+                    "en": "My Hero Academia"
+                },
+                {
+                    "ar": "بلاك كلوفر",
+                    "en": "Black Clover"
+                },
+                {
+                    "ar": "ون بنش مان",
+                    "en": "One Punch Man"
+                }
+            ]
+        },
+        {
+            "id": "games",
+            "name": {
+                "ar": "ألعاب فيديو",
+                "en": "Video Games"
+            },
+            "words": [
+                {
+                    "ar": "فورتنايت",
+                    "en": "Fortnite"
+                },
+                {
+                    "ar": "ماينكرافت",
+                    "en": "Minecraft"
+                },
+                {
+                    "ar": "كول أوف ديوتي",
+                    "en": "Call of Duty"
+                },
+                {
+                    "ar": "جراند",
+                    "en": "Grand Theft Auto"
+                },
+                {
+                    "ar": "فيفا",
+                    "en": "EA Sports FC"
+                },
+                {
+                    "ar": "ببجي",
+                    "en": "PUBG"
+                },
+                {
+                    "ar": "أبيكس ليجندز",
+                    "en": "Apex Legends"
+                },
+                {
+                    "ar": "فالورانت",
+                    "en": "Valorant"
+                },
+                {
+                    "ar": "ليق أوف ليجندز",
+                    "en": "League of Legends"
+                },
+                {
+                    "ar": "روبلوكس",
+                    "en": "Roblox"
+                },
+                {
+                    "ar": "ريد ديد",
+                    "en": "Red Dead Redemption"
+                },
+                {
+                    "ar": "أمونغ أس",
+                    "en": "Among Us"
+                },
+                {
+                    "ar": "روكيت ليق",
+                    "en": "Rocket League"
+                },
+                {
+                    "ar": "أوفرواتش",
+                    "en": "Overwatch"
+                },
+                {
+                    "ar": "إلدن رينغ",
+                    "en": "Elden Ring"
+                },
+                {
+                    "ar": "قود أوف وور",
+                    "en": "God of War"
+                },
+                {
+                    "ar": "ذا لاست أوف أس",
+                    "en": "The Last of Us"
+                },
+                {
+                    "ar": "ريزدنت إيفل",
+                    "en": "Resident Evil"
+                },
+                {
+                    "ar": "أساسنز كريد",
+                    "en": "Assassin's Creed"
+                }
+            ]
+        },
+        {
+            "id": "cars",
+            "name": {
+                "ar": "سيارات",
+                "en": "Cars"
+            },
+            "words": [
+                {
+                    "ar": "تويوتا",
+                    "en": "Toyota"
+                },
+                {
+                    "ar": "هوندا",
+                    "en": "Honda"
+                },
+                {
+                    "ar": "نيسان",
+                    "en": "Nissan"
+                },
+                {
+                    "ar": "هيونداي",
+                    "en": "Hyundai"
+                },
+                {
+                    "ar": "كيا",
+                    "en": "Kia"
+                },
+                {
+                    "ar": "فورد",
+                    "en": "Ford"
+                },
+                {
+                    "ar": "شفروليه",
+                    "en": "Chevrolet"
+                },
+                {
+                    "ar": "مرسيدس",
+                    "en": "Mercedes"
+                },
+                {
+                    "ar": "بي إم دبليو",
+                    "en": "BMW"
+                },
+                {
+                    "ar": "أودي",
+                    "en": "Audi"
+                },
+                {
+                    "ar": "لكزس",
+                    "en": "Lexus"
+                },
+                {
+                    "ar": "تسلا",
+                    "en": "Tesla"
+                },
+                {
+                    "ar": "بورش",
+                    "en": "Porsche"
+                },
+                {
+                    "ar": "جيب",
+                    "en": "Jeep"
+                },
+                {
+                    "ar": "فولكس فاجن",
+                    "en": "Volkswagen"
+                },
+                {
+                    "ar": "لامبورغيني",
+                    "en": "Lamborghini"
+                },
+                {
+                    "ar": "فيراري",
+                    "en": "Ferrari"
+                },
+                {
+                    "ar": "بنتلي",
+                    "en": "Bentley"
+                },
+                {
+                    "ar": "رولز رويس",
+                    "en": "Rolls-Royce"
+                },
+                {
+                    "ar": "مازيراتي",
+                    "en": "Maserati"
+                },
+                {
+                    "ar": "سوبارو",
+                    "en": "Subaru"
+                },
+                {
+                    "ar": "مازدا",
+                    "en": "Mazda"
+                },
+                {
+                    "ar": "سوزوكي",
+                    "en": "Suzuki"
+                },
+                {
+                    "ar": "بيجو",
+                    "en": "Peugeot"
+                },
+                {
+                    "ar": "رينو",
+                    "en": "Renault"
+                }
+            ]
+        },
+        {
+            "id": "players",
+            "name": {
+                "ar": "لاعبي كرة القدم",
+                "en": "Footballers"
+            },
+            "words": [
+                {
+                    "ar": "ميسي",
+                    "en": "Lionel Messi"
+                },
+                {
+                    "ar": "مبابي",
+                    "en": "Kylian Mbappé"
+                },
+                {
+                    "ar": "هالاند",
+                    "en": "Erling Haaland"
+                },
+                {
+                    "ar": "دي بروين",
+                    "en": "Kevin De Bruyne"
+                },
+                {
+                    "ar": "محمد صلاح",
+                    "en": "Mohamed Salah"
+                },
+                {
+                    "ar": "هاري كين",
+                    "en": "Harry Kane"
+                },
+                {
+                    "ar": "فينيسيوس",
+                    "en": "Vinícius Júnior"
+                },
+                {
+                    "ar": "بيلينغهام",
+                    "en": "Jude Bellingham"
+                },
+                {
+                    "ar": "مودريتش",
+                    "en": "Luka Modrić"
+                },
+                {
+                    "ar": "ليفاندوفسكي",
+                    "en": "Robert Lewandowski"
+                },
+                {
+                    "ar": "غريزمان",
+                    "en": "Antoine Griezmann"
+                },
+                {
+                    "ar": "برناردو سيلفا",
+                    "en": "Bernardo Silva"
+                },
+                {
+                    "ar": "سون",
+                    "en": "Son Heung-min"
+                },
+                {
+                    "ar": "راشفورد",
+                    "en": "Marcus Rashford"
+                },
+                {
+                    "ar": "برونو",
+                    "en": "Bruno Fernandes"
+                },
+                {
+                    "ar": "كيميش",
+                    "en": "Joshua Kimmich"
+                },
+                {
+                    "ar": "بيدري",
+                    "en": "Pedri"
+                },
+                {
+                    "ar": "جافي",
+                    "en": "Gavi"
+                },
+                {
+                    "ar": "ساكا",
+                    "en": "Bukayo Saka"
+                },
+                {
+                    "ar": "فودين",
+                    "en": "Phil Foden"
+                },
+                {
+                    "ar": "رودري",
+                    "en": "Rodri"
+                },
+                {
+                    "ar": "كاسيميرو",
+                    "en": "Casemiro"
+                },
+                {
+                    "ar": "أليسون",
+                    "en": "Alisson Becker"
+                },
+                {
+                    "ar": "كورتوا",
+                    "en": "Thibaut Courtois"
+                },
+                {
+                    "ar": "فان دايك",
+                    "en": "Virgil van Dijk"
+                },
+                {
+                    "ar": "حكيمي",
+                    "en": "Achraf Hakimi"
+                },
+                {
+                    "ar": "جواو فيليكس",
+                    "en": "João Félix"
+                },
+                {
+                    "ar": "لاوتارو",
+                    "en": "Lautaro Martínez"
+                },
+                {
+                    "ar": "ديبالا",
+                    "en": "Paulo Dybala"
+                },
+                {
+                    "ar": "ديمبيلي",
+                    "en": "Ousmane Dembélé"
+                },
+                {
+                    "ar": "لياو",
+                    "en": "Rafael Leão"
+                },
+                {
+                    "ar": "غريليش",
+                    "en": "Jack Grealish"
+                },
+                {
+                    "ar": "أرنولد",
+                    "en": "Trent Alexander-Arnold"
+                },
+                {
+                    "ar": "روبيرتسون",
+                    "en": "Andrew Robertson"
+                },
+                {
+                    "ar": "ماونت",
+                    "en": "Mason Mount"
+                },
+                {
+                    "ar": "رايس",
+                    "en": "Declan Rice"
+                },
+                {
+                    "ar": "دي يونغ",
+                    "en": "Frenkie de Jong"
+                },
+                {
+                    "ar": "تير شتيغن",
+                    "en": "Marc-André ter Stegen"
+                },
+                {
+                    "ar": "إيدرسون",
+                    "en": "Ederson"
+                },
+                {
+                    "ar": "ستيرلينغ",
+                    "en": "Raheem Sterling"
+                },
+                {
+                    "ar": "دي ماريا",
+                    "en": "Ángel Di María"
+                },
+                {
+                    "ar": "لوكاكو",
+                    "en": "Romelu Lukaku"
+                },
+                {
+                    "ar": "أوسيمين",
+                    "en": "Victor Osimhen"
+                },
+                {
+                    "ar": "أدييمي",
+                    "en": "Karim Adeyemi"
+                },
+                {
+                    "ar": "بوسكيتس",
+                    "en": "Sergio Busquets"
+                },
+                {
+                    "ar": "كروس",
+                    "en": "Toni Kroos"
+                },
+                {
+                    "ar": "فاران",
+                    "en": "Raphaël Varane"
+                },
+                {
+                    "ar": "ألابا",
+                    "en": "David Alaba"
+                },
+                {
+                    "ar": "غوندوغان",
+                    "en": "Ilkay Gündogan"
+                },
+                {
+                    "ar": "إيموبيلي",
+                    "en": "Ciro Immobile"
+                },
+                {
+                    "ar": "إنسيني",
+                    "en": "Lorenzo Insigne"
+                },
+                {
+                    "ar": "بيكيه",
+                    "en": "Gerard Piqué"
+                },
+                {
+                    "ar": "تياغو سيلفا",
+                    "en": "Thiago Silva"
+                },
+                {
+                    "ar": "راموس",
+                    "en": "Sergio Ramos"
+                },
+                {
+                    "ar": "سواريز",
+                    "en": "Luis Suárez"
+                },
+                {
+                    "ar": "إبراهيموفيتش",
+                    "en": "Zlatan Ibrahimović"
+                },
+                {
+                    "ar": "مولر",
+                    "en": "Thomas Müller"
+                },
+                {
+                    "ar": "نوير",
+                    "en": "Manuel Neuer"
+                },
+                {
+                    "ar": "أوباميانغ",
+                    "en": "Pierre-Emerick Aubameyang"
+                },
+                {
+                    "ar": "رويس",
+                    "en": "Marco Reus"
+                },
+                {
+                    "ar": "سانشو",
+                    "en": "Jadon Sancho"
+                },
+                {
+                    "ar": "دي ليخت",
+                    "en": "Matthijs de Ligt"
+                },
+                {
+                    "ar": "ديباي",
+                    "en": "Memphis Depay"
+                },
+                {
+                    "ar": "زياش",
+                    "en": "Hakim Ziyech"
+                },
+                {
+                    "ar": "بوليسيتش",
+                    "en": "Christian Pulisic"
+                },
+                {
+                    "ar": "بيل",
+                    "en": "Gareth Bale"
+                },
+                {
+                    "ar": "أوزيل",
+                    "en": "Mesut Özil"
+                },
+                {
+                    "ar": "كافاني",
+                    "en": "Edinson Cavani"
+                },
+                {
+                    "ar": "دروغبا",
+                    "en": "Didier Drogba"
+                },
+                {
+                    "ar": "يايا توريه",
+                    "en": "Yaya Touré"
+                },
+                {
+                    "ar": "روبن",
+                    "en": "Arjen Robben"
+                },
+                {
+                    "ar": "ريبيري",
+                    "en": "Franck Ribéry"
+                },
+                {
+                    "ar": "روني",
+                    "en": "Wayne Rooney"
+                },
+                {
+                    "ar": "لامبارد",
+                    "en": "Frank Lampard"
+                },
+                {
+                    "ar": "جيرارد",
+                    "en": "Steven Gerrard"
+                },
+                {
+                    "ar": "بيليه",
+                    "en": "Pelé"
+                },
+                {
+                    "ar": "مارادونا",
+                    "en": "Diego Maradona"
+                },
+                {
+                    "ar": "زيدان",
+                    "en": "Zinedine Zidane"
+                },
+                {
+                    "ar": "رونالدينيو",
+                    "en": "Ronaldinho"
+                },
+                {
+                    "ar": "رونالدو الظاهرة",
+                    "en": "Ronaldo Nazário"
+                },
+                {
+                    "ar": "بيكهام",
+                    "en": "David Beckham"
+                },
+                {
+                    "ar": "هنري",
+                    "en": "Thierry Henry"
+                },
+                {
+                    "ar": "ديل بييرو",
+                    "en": "Alessandro Del Piero"
+                },
+                {
+                    "ar": "مالديني",
+                    "en": "Paolo Maldini"
+                },
+                {
+                    "ar": "توتي",
+                    "en": "Francesco Totti"
+                },
+                {
+                    "ar": "أسامواه جيان",
+                    "en": "Asamoah Gyan"
+                },
+                {
+                    "ar": "كارلوس إدواردو",
+                    "en": "Carlos Eduardo"
+                },
+                {
+                    "ar": "بافيتيمبي غوميز",
+                    "en": "Bafétimbi Gomis"
+                },
+                {
+                    "ar": "عمر السومة",
+                    "en": "Omar Al Somah"
+                },
+                {
+                    "ar": "محمد السهلاوي",
+                    "en": "Mohammed Al-Sahlawi"
+                },
+                {
+                    "ar": "محمد نور",
+                    "en": "Mohammad Noor"
+                },
+                {
+                    "ar": "أسامة هوساوي",
+                    "en": "Osama Hawsawi"
+                },
+                {
+                    "ar": "ياسر القحطاني",
+                    "en": "Yasser Al-Qahtani"
+                },
+                {
+                    "ar": "نواف العابد",
+                    "en": "Nawaf Al-Abed"
+                },
+                {
+                    "ar": "سالم الدوسري",
+                    "en": "Salem Al-Dawsari"
+                },
+                {
+                    "ar": "تيسير الجاسم",
+                    "en": "Taisir Al-Jassim"
+                },
+                {
+                    "ar": "سلمان الفرج",
+                    "en": "Salman Al-Faraj"
+                },
+                {
+                    "ar": "حسن كادش",
+                    "en": "Hassan Kadesh"
+                }
+            ]
+        },
+        {
+            "id": "teams",
+            "name": {
+                "ar": "فرق كرة القدم",
+                "en": "Football Teams"
+            },
+            "words": [
+                {
+                    "ar": "مانشستر سيتي",
+                    "en": "Manchester City"
+                },
+                {
+                    "ar": "مانشستر يونايتد",
+                    "en": "Manchester United"
+                },
+                {
+                    "ar": "ليفربول",
+                    "en": "Liverpool"
+                },
+                {
+                    "ar": "أرسنال",
+                    "en": "Arsenal"
+                },
+                {
+                    "ar": "تشيلسي",
+                    "en": "Chelsea"
+                },
+                {
+                    "ar": "توتنهام",
+                    "en": "Tottenham"
+                },
+                {
+                    "ar": "نيوكاسل",
+                    "en": "Newcastle United"
+                },
+                {
+                    "ar": "ريال مدريد",
+                    "en": "Real Madrid"
+                },
+                {
+                    "ar": "برشلونة",
+                    "en": "Barcelona"
+                },
+                {
+                    "ar": "أتلتيكو مدريد",
+                    "en": "Atletico Madrid"
+                },
+                {
+                    "ar": "إشبيلية",
+                    "en": "Sevilla"
+                },
+                {
+                    "ar": "فالنسيا",
+                    "en": "Valencia"
+                },
+                {
+                    "ar": "فياريال",
+                    "en": "Villarreal"
+                },
+                {
+                    "ar": "ريال سوسيداد",
+                    "en": "Real Sociedad"
+                },
+                {
+                    "ar": "يوفنتوس",
+                    "en": "Juventus"
+                },
+                {
+                    "ar": "ميلان",
+                    "en": "AC Milan"
+                },
+                {
+                    "ar": "إنتر",
+                    "en": "Inter Milan"
+                },
+                {
+                    "ar": "روما",
+                    "en": "Roma"
+                },
+                {
+                    "ar": "نابولي",
+                    "en": "Napoli"
+                },
+                {
+                    "ar": "لاتسيو",
+                    "en": "Lazio"
+                },
+                {
+                    "ar": "أتالانتا",
+                    "en": "Atalanta"
+                },
+                {
+                    "ar": "بايرن ميونخ",
+                    "en": "Bayern Munich"
+                },
+                {
+                    "ar": "دورتموند",
+                    "en": "Borussia Dortmund"
+                },
+                {
+                    "ar": "لايبزيغ",
+                    "en": "RB Leipzig"
+                },
+                {
+                    "ar": "ليفركوزن",
+                    "en": "Bayer Leverkusen"
+                },
+                {
+                    "ar": "شالكه",
+                    "en": "Schalke"
+                },
+                {
+                    "ar": "فرانكفورت",
+                    "en": "Eintracht Frankfurt"
+                },
+                {
+                    "ar": "فولفسبورغ",
+                    "en": "Wolfsburg"
+                },
+                {
+                    "ar": "باريس سان جيرمان",
+                    "en": "Paris Saint-Germain"
+                },
+                {
+                    "ar": "مارسيليا",
+                    "en": "Marseille"
+                },
+                {
+                    "ar": "موناكو",
+                    "en": "Monaco"
+                },
+                {
+                    "ar": "ليون",
+                    "en": "Lyon"
+                },
+                {
+                    "ar": "ليل",
+                    "en": "Lille"
+                },
+                {
+                    "ar": "نيس",
+                    "en": "Nice"
+                },
+                {
+                    "ar": "لانس",
+                    "en": "Lens"
+                },
+                {
+                    "ar": "الهلال",
+                    "en": "Al Hilal"
+                },
+                {
+                    "ar": "النصر",
+                    "en": "Al Nassr"
+                },
+                {
+                    "ar": "الاتحاد",
+                    "en": "Al Ittihad"
+                },
+                {
+                    "ar": "الأهلي",
+                    "en": "Al Ahli"
+                },
+                {
+                    "ar": "الشباب",
+                    "en": "Al Shabab"
+                },
+                {
+                    "ar": "أستون فيلا",
+                    "en": "Aston Villa"
+                },
+                {
+                    "ar": "وست هام",
+                    "en": "West Ham United"
+                },
+                {
+                    "ar": "ريال بيتيس",
+                    "en": "Real Betis"
+                },
+                {
+                    "ar": "أتلتيك بلباو",
+                    "en": "Athletic Bilbao"
+                },
+                {
+                    "ar": "فيورنتينا",
+                    "en": "Fiorentina"
+                },
+                {
+                    "ar": "بولونيا",
+                    "en": "Bologna"
+                },
+                {
+                    "ar": "مونشنغلادباخ",
+                    "en": "Borussia Mönchengladbach"
+                },
+                {
+                    "ar": "شتوتغارت",
+                    "en": "Stuttgart"
+                },
+                {
+                    "ar": "رين",
+                    "en": "Rennes"
+                },
+                {
+                    "ar": "مونبلييه",
+                    "en": "Montpellier"
+                }
+            ]
+        },
+        {
+            "id": "countries",
+            "name": {
+                "ar": "دول",
+                "en": "Countries"
+            },
+            "words": [
+                {
+                    "ar": "السعودية",
+                    "en": "Saudi Arabia"
+                },
+                {
+                    "ar": "الولايات المتحدة",
+                    "en": "United States"
+                },
+                {
+                    "ar": "المملكة المتحدة",
+                    "en": "United Kingdom"
+                },
+                {
+                    "ar": "فرنسا",
+                    "en": "France"
+                },
+                {
+                    "ar": "ألمانيا",
+                    "en": "Germany"
+                },
+                {
+                    "ar": "إيطاليا",
+                    "en": "Italy"
+                },
+                {
+                    "ar": "إسبانيا",
+                    "en": "Spain"
+                },
+                {
+                    "ar": "البرتغال",
+                    "en": "Portugal"
+                },
+                {
+                    "ar": "هولندا",
+                    "en": "Netherlands"
+                },
+                {
+                    "ar": "بلجيكا",
+                    "en": "Belgium"
+                },
+                {
+                    "ar": "سويسرا",
+                    "en": "Switzerland"
+                },
+                {
+                    "ar": "النمسا",
+                    "en": "Austria"
+                },
+                {
+                    "ar": "السويد",
+                    "en": "Sweden"
+                },
+                {
+                    "ar": "النرويج",
+                    "en": "Norway"
+                },
+                {
+                    "ar": "الدنمارك",
+                    "en": "Denmark"
+                },
+                {
+                    "ar": "فنلندا",
+                    "en": "Finland"
+                },
+                {
+                    "ar": "بولندا",
+                    "en": "Poland"
+                },
+                {
+                    "ar": "اليونان",
+                    "en": "Greece"
+                },
+                {
+                    "ar": "تركيا",
+                    "en": "Turkey"
+                },
+                {
+                    "ar": "روسيا",
+                    "en": "Russia"
+                },
+                {
+                    "ar": "الصين",
+                    "en": "China"
+                },
+                {
+                    "ar": "اليابان",
+                    "en": "Japan"
+                },
+                {
+                    "ar": "كوريا الجنوبية",
+                    "en": "South Korea"
+                },
+                {
+                    "ar": "الهند",
+                    "en": "India"
+                },
+                {
+                    "ar": "باكستان",
+                    "en": "Pakistan"
+                },
+                {
+                    "ar": "إندونيسيا",
+                    "en": "Indonesia"
+                },
+                {
+                    "ar": "ماليزيا",
+                    "en": "Malaysia"
+                },
+                {
+                    "ar": "تايلاند",
+                    "en": "Thailand"
+                },
+                {
+                    "ar": "فيتنام",
+                    "en": "Vietnam"
+                },
+                {
+                    "ar": "الفلبين",
+                    "en": "Philippines"
+                },
+                {
+                    "ar": "مصر",
+                    "en": "Egypt"
+                },
+                {
+                    "ar": "المغرب",
+                    "en": "Morocco"
+                },
+                {
+                    "ar": "الجزائر",
+                    "en": "Algeria"
+                },
+                {
+                    "ar": "تونس",
+                    "en": "Tunisia"
+                },
+                {
+                    "ar": "ليبيا",
+                    "en": "Libya"
+                },
+                {
+                    "ar": "السودان",
+                    "en": "Sudan"
+                },
+                {
+                    "ar": "إثيوبيا",
+                    "en": "Ethiopia"
+                },
+                {
+                    "ar": "نيجيريا",
+                    "en": "Nigeria"
+                },
+                {
+                    "ar": "غانا",
+                    "en": "Ghana"
+                },
+                {
+                    "ar": "السنغال",
+                    "en": "Senegal"
+                },
+                {
+                    "ar": "البرازيل",
+                    "en": "Brazil"
+                },
+                {
+                    "ar": "الأرجنتين",
+                    "en": "Argentina"
+                },
+                {
+                    "ar": "أوروغواي",
+                    "en": "Uruguay"
+                },
+                {
+                    "ar": "تشيلي",
+                    "en": "Chile"
+                },
+                {
+                    "ar": "كولومبيا",
+                    "en": "Colombia"
+                },
+                {
+                    "ar": "بيرو",
+                    "en": "Peru"
+                },
+                {
+                    "ar": "المكسيك",
+                    "en": "Mexico"
+                },
+                {
+                    "ar": "كندا",
+                    "en": "Canada"
+                },
+                {
+                    "ar": "كوبا",
+                    "en": "Cuba"
+                },
+                {
+                    "ar": "جامايكا",
+                    "en": "Jamaica"
+                },
+                {
+                    "ar": "أستراليا",
+                    "en": "Australia"
+                },
+                {
+                    "ar": "نيوزيلندا",
+                    "en": "New Zealand"
+                },
+                {
+                    "ar": "جنوب أفريقيا",
+                    "en": "South Africa"
+                },
+                {
+                    "ar": "كينيا",
+                    "en": "Kenya"
+                },
+                {
+                    "ar": "تنزانيا",
+                    "en": "Tanzania"
+                },
+                {
+                    "ar": "أنغولا",
+                    "en": "Angola"
+                },
+                {
+                    "ar": "الكاميرون",
+                    "en": "Cameroon"
+                },
+                {
+                    "ar": "ساحل العاج",
+                    "en": "Ivory Coast"
+                },
+                {
+                    "ar": "زيمبابوي",
+                    "en": "Zimbabwe"
+                },
+                {
+                    "ar": "زامبيا",
+                    "en": "Zambia"
+                },
+                {
+                    "ar": "قطر",
+                    "en": "Qatar"
+                },
+                {
+                    "ar": "الإمارات",
+                    "en": "UAE"
+                },
+                {
+                    "ar": "الكويت",
+                    "en": "Kuwait"
+                },
+                {
+                    "ar": "البحرين",
+                    "en": "Bahrain"
+                },
+                {
+                    "ar": "عُمان",
+                    "en": "Oman"
+                },
+                {
+                    "ar": "الأردن",
+                    "en": "Jordan"
+                },
+                {
+                    "ar": "لبنان",
+                    "en": "Lebanon"
+                },
+                {
+                    "ar": "سوريا",
+                    "en": "Syria"
+                },
+                {
+                    "ar": "العراق",
+                    "en": "Iraq"
+                },
+                {
+                    "ar": "إيران",
+                    "en": "Iran"
+                },
+                {
+                    "ar": "أفغانستان",
+                    "en": "Afghanistan"
+                },
+                {
+                    "ar": "بنغلاديش",
+                    "en": "Bangladesh"
+                },
+                {
+                    "ar": "سريلانكا",
+                    "en": "Sri Lanka"
+                },
+                {
+                    "ar": "نيبال",
+                    "en": "Nepal"
+                },
+                {
+                    "ar": "ميانمار",
+                    "en": "Myanmar"
+                },
+                {
+                    "ar": "منغوليا",
+                    "en": "Mongolia"
+                },
+                {
+                    "ar": "كازاخستان",
+                    "en": "Kazakhstan"
+                },
+                {
+                    "ar": "أوزبكستان",
+                    "en": "Uzbekistan"
+                },
+                {
+                    "ar": "أوكرانيا",
+                    "en": "Ukraine"
+                },
+                {
+                    "ar": "رومانيا",
+                    "en": "Romania"
+                }
+            ]
         }
     ]
 }

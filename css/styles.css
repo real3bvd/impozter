@@ -233,6 +233,24 @@ h3 {
     /* Prevent RTL from flipping button order */
 }
 
+.header-controls-left {
+    display: flex;
+    gap: var(--space-2);
+    position: absolute;
+    top: 50%;
+    left: var(--space-4);
+    transform: translateY(-50%);
+}
+
+/* Hide back button on welcome screen */
+body:has(#welcome-screen.active) .back-btn {
+    display: none;
+}
+
+.back-btn {
+    font-size: 1.3rem;
+}
+
 .game-title {
     font-family: var(--font-english);
     font-size: clamp(1.75rem, 5vw, 3rem);

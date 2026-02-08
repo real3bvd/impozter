@@ -75,6 +75,7 @@ const elements = {
     // Header
     soundToggle: document.getElementById('sound-toggle'),
     langToggle: document.getElementById('lang-toggle'),
+    backBtn: document.getElementById('back-btn'),
 
     // Welcome
     playBtn: document.getElementById('play-btn')
@@ -222,6 +223,7 @@ function setupEventListeners() {
         populateCategories();
         updatePlayerNameInputs();
     });
+    elements.backBtn.addEventListener('click', goBack);
 
     // Setup screen
     elements.startGameBtn.addEventListener('click', startGame);
@@ -250,6 +252,22 @@ function setupEventListeners() {
     // Language change event
     window.addEventListener('languageChanged', () => {
         populateCategories();
+
+        // Update default player names to new language
+        if (gameState.players.length > 0) {
+            gameState.players.forEach((player, idx) => {
+                if (player.isDefault) {
+                    player.name = `${window.i18n.t('playerPlaceholder')} ${player.index + 1}`;
+                }
+            });
+            // Also update playerOrder since it references the same players
+            gameState.playerOrder.forEach((player, idx) => {
+                if (player.isDefault) {
+                    player.name = `${window.i18n.t('playerPlaceholder')} ${player.index + 1}`;
+                }
+            });
+        }
+
         if (gameState.phase === 'reveal') {
             updateRevealScreen();
         }
@@ -341,8 +359,13 @@ function startGame() {
     const players = [];
 
     nameInputs.forEach((input, index) => {
-        const name = input.value.trim() || `${window.i18n.t('playerPlaceholder')} ${index + 1}`;
-        players.push({ name, index });
+        const customName = input.value.trim();
+        // Store whether this is a custom name or default
+        players.push({
+            name: customName || `${window.i18n.t('playerPlaceholder')} ${index + 1}`,
+            index,
+            isDefault: !customName  // Track if using default name
+        });
     });
 
     // Get settings
@@ -705,6 +728,36 @@ function playAgain() {
 function newGame() {
     gameState.phase = 'setup';
     switchScreen('welcome');
+    window.gameAudio.play('click');
+}
+
+/**
+ * Go back to previous screen
+ */
+function goBack() {
+    // Stop timer if running
+    if (gameState.timerInterval) {
+        stopTimer();
+    }
+
+    switch (gameState.phase) {
+        case 'setup':
+            switchScreen('welcome');
+            break;
+        case 'reveal':
+        case 'discussion':
+        case 'voting':
+        case 'results':
+            // Go back to setup and reset game state
+            gameState.phase = 'setup';
+            gameState.players = [];
+            gameState.playerOrder = [];
+            gameState.currentPlayerIndex = 0;
+            switchScreen('setup');
+            break;
+        default:
+            switchScreen('welcome');
+    }
     window.gameAudio.play('click');
 }
 
