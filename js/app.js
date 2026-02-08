@@ -23,6 +23,7 @@ let wordData = null;
 // DOM Elements
 const elements = {
     // Screens
+    welcomeScreen: document.getElementById('welcome-screen'),
     setupScreen: document.getElementById('setup-screen'),
     revealScreen: document.getElementById('reveal-screen'),
     discussionScreen: document.getElementById('discussion-screen'),
@@ -73,7 +74,10 @@ const elements = {
 
     // Header
     soundToggle: document.getElementById('sound-toggle'),
-    langToggle: document.getElementById('lang-toggle')
+    langToggle: document.getElementById('lang-toggle'),
+
+    // Welcome
+    playBtn: document.getElementById('play-btn')
 };
 
 // Card flip controller
@@ -222,6 +226,12 @@ function setupEventListeners() {
     // Setup screen
     elements.startGameBtn.addEventListener('click', startGame);
     elements.playerCount.addEventListener('change', updatePlayerNameInputs);
+
+    // Welcome screen
+    elements.playBtn.addEventListener('click', () => {
+        switchScreen('setup');
+        window.gameAudio.play('click');
+    });
 
     // Reveal screen
     elements.readyBtn.addEventListener('click', showRoleCard);
@@ -694,7 +704,7 @@ function playAgain() {
  */
 function newGame() {
     gameState.phase = 'setup';
-    switchScreen('setup');
+    switchScreen('welcome');
     window.gameAudio.play('click');
 }
 

@@ -35,8 +35,35 @@
     <!-- Main Content -->
     <main class="game-container">
 
+        <!-- Welcome Screen -->
+        <section id="welcome-screen" class="screen active">
+            <div class="welcome-container">
+                <div class="welcome-logo">
+                    <h1 class="welcome-title">IMPOZTOR</h1>
+                    <p class="welcome-tagline" data-i18n="welcomeTagline">اكتشف الجاسوس بينكم!</p>
+                </div>
+                <div class="welcome-features">
+                    <div class="feature-item">
+                        <span class="feature-icon">👥</span>
+                        <span data-i18n="feature1">3-15 لاعبين</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">🎯</span>
+                        <span data-i18n="feature2">فئات متعددة</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">🔥</span>
+                        <span data-i18n="feature3">مناقشة وتصويت</span>
+                    </div>
+                </div>
+                <button id="play-btn" class="btn btn-primary btn-large btn-play" data-i18n="playNow">
+                    العب الآن
+                </button>
+            </div>
+        </section>
+
         <!-- Setup Screen -->
-        <section id="setup-screen" class="screen active">
+        <section id="setup-screen" class="screen">
             <div class="setup-card glass-card">
                 <h2 data-i18n="setupTitle">إعداد اللعبة</h2>
 

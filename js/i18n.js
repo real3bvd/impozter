@@ -46,6 +46,13 @@ const translations = {
         newGame: 'لعبة جديدة',
         votes: 'صوت',
 
+        // Welcome Screen
+        welcomeTagline: 'اكتشف الجاسوس بينكم!',
+        feature1: '3-15 لاعبين',
+        feature2: 'فئات متعددة',
+        feature3: 'مناقشة وتصويت',
+        playNow: 'العب الآن',
+
         // Alerts
         enterAllNames: 'الرجاء إدخال جميع أسماء اللاعبين',
         loadError: 'حدث خطأ في تحميل الكلمات'
@@ -93,6 +100,13 @@ const translations = {
         playAgain: 'Play Again',
         newGame: 'New Game',
         votes: 'votes',
+
+        // Welcome Screen
+        welcomeTagline: 'Find the impostor among you!',
+        feature1: '3-15 Players',
+        feature2: 'Multiple Categories',
+        feature3: 'Discuss & Vote',
+        playNow: 'Play Now',
 
         // Alerts
         enterAllNames: 'Please enter all player names',
